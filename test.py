@@ -1,6 +1,9 @@
-# Variables choisies par l'utilisateur
-nombre_choisi1 = int(input("Entrez un premier nombre : "))
-nombre_choisi2 = int(input("Entrez un second nombre : "))
+a = "J'ai une classe de " + str(30) + "  élèves"
+b = str(10) + " + " + " 5" + " est égal à " + str(15)
+c = 10 + int("5")
+d = "L'addition de 10 + 5 est égal à " + str(10 + 5)
 
-# On se sert de la concaténation pour afficher la phrase contenant le résultat de l'addition
-print(f"Le résultat de l'addition de {nombre_choisi1} avec {nombre_choisi2} est égal à {nombre_choisi1 + nombre_choisi2}")
+print(a)
+print(b)
+print(c)
+print(d)
